@@ -1,0 +1,34 @@
+.site-layout-content {
+    min-height: 280px;
+    padding: 24px;
+    display: flex;
+}
+
+#components-layout-demo-top .logo {
+    float: left;
+    width: 120px;
+    height: 31px;
+    margin: 16px 24px 16px 0;
+    background: rgba(237, 228, 228, 0.3);
+    background-color: darkblue;
+}
+
+.ant-row-rtl #components-layout-demo-top.logo {
+    float: right;
+    margin: 16px 0 16px 24px;
+}
+
+.gutter-box {
+    padding: 8px 0;
+    background: #00a0e9;
+}
+
+/* .gutter-row{
+    display: flex;
+} */
+.grid {
+    gap: 30px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    display: grid;
+    margin: 0 auto;
+}
